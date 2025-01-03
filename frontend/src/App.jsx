@@ -1,11 +1,14 @@
-function App() {
+import React from 'react';
+import Header from './components/Header';
+
+const App = () => {
   return (
-    <div className="flex items-center justify-center h-screen bg-gray-100">
-      <h1 className="text-3xl font-bold text-red-600">
-        Hello, Tailwind CSS + React!
-      </h1>
+    <div className="app">
+      <Header />
+      <main>
+      </main>
     </div>
   );
-}
+};
 
 export default App;
